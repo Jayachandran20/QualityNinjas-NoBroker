@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [MyntraSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="ParallelTestExecution(failed)">
+    <classes>
+      <class name="test.testcart">
+        <methods>
+          <include name="after"/>
+          <include name="ChooseProduct"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- test.testcart -->
+    </classes>
+  </test> <!-- ParallelTestExecution(failed) -->
+</suite> <!-- Failed suite [MyntraSuite] -->
